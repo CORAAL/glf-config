@@ -1,4 +1,4 @@
-{ pkgs, lib, ... }:
+{ pkgs ? import <nixpkgs> {}, lib, ... }:
 {
   # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # Activation de Gnome

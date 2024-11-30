@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs ? import <nixpkgs> {}, ... }:
 {
   services.flatpak.enable = true;
   systemd.services.flatpak-repo = {

@@ -1,4 +1,4 @@
-{ config, pkgs, ... }:
+{ config, pkgs ? import <nixpkgs> {}, ... }:
 let
   all-users = builtins.attrNames config.users.users;
   normal-users = builtins.filter (user: config.users.users.${user}.isNormalUser == true) all-users;

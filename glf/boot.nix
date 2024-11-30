@@ -1,4 +1,4 @@
-{ pkgs, config, lib, ... }:
+{ pkgs ? import <nixpkgs> {}, config, lib, ... }:
 {
   boot = {
     tmp.cleanOnBoot = true;

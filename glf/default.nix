@@ -8,7 +8,9 @@
     ./firefox.nix
     ./paquets.nix
     ./pipewire.nix
-
+    ./nvidia.nix
     ./system.nix
+    ./imprimante.nix
   ];
 }
+
